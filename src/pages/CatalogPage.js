@@ -1,4 +1,7 @@
+import InputSelect from "../components/InputSelect";
+import item from "../makes.json"
+
 const CatalogPage = () => {
-    return <div>CatalogPage</div>
+    return (<InputSelect items={item} />)
 };
 export default CatalogPage;
