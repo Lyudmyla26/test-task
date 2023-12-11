@@ -23,6 +23,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.heart{
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+

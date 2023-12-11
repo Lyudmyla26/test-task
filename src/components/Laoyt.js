@@ -1,10 +1,11 @@
 import {  Outlet} from 'react-router-dom';
 import Nav from './Nav';
+import { Container } from './Laoyt.stylet';
 const Layot = () => {
-    return <div> 
+    return <Container> 
         <Nav />
         <hr/>
         <Outlet/>
-    </div>
+    </Container>
 };
 export default Layot;
