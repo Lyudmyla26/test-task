@@ -17,8 +17,7 @@ const CatalogPage = () => {
       try {
         const carItems = await fetchCar();
         setCarItems(carItems);
-        setFilteredCars(carItems); 
-        console.log( carItems);
+        setFilteredCars(carItems);
       } catch (error) {
         console.log(error);
       }
